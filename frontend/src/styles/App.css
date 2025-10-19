@@ -21,7 +21,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-width: 100vw;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  z-index: 1000;
 }
 
 .auth-card {
@@ -188,6 +194,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  z-index: 1000;
 }
 
 .loading-spinner {
